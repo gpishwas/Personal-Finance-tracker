@@ -1,0 +1,140 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>Create Account | Personal Finance Tracker</title>
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/auth.css">
+
+</head>
+
+<body>
+
+<div class="container">
+
+    <!-- Left Side -->
+
+    <div class="left-section">
+
+        <h1>Start Your Finance Journey</h1>
+
+        <p>
+            Create your free account and securely manage your finances anywhere.
+        </p>
+
+        <ul>
+
+            <li>✔ Easy Expense Tracking</li>
+
+            <li>✔ Secure Firebase Storage</li>
+
+            <li>✔ Multiple Categories</li>
+
+            <li>✔ Real-Time Balance</li>
+
+        </ul>
+
+    </div>
+
+
+    <!-- Right Side -->
+
+    <div class="right-section">
+
+        <div class="login-card">
+
+            <h2>Create Account</h2>
+
+            <p>Sign up to continue</p>
+
+            <form id="signupForm">
+
+                <div class="input-group">
+
+                    <label>Full Name</label>
+
+                    <input
+                        type="text"
+                        id="name"
+                        placeholder="Enter your full name"
+                        required
+                    >
+
+                </div>
+
+                <div class="input-group">
+
+                    <label>Email</label>
+
+                    <input
+                        type="email"
+                        id="email"
+                        placeholder="Enter your email"
+                        required
+                    >
+
+                </div>
+
+                <div class="input-group">
+
+                    <label>Password</label>
+
+                    <input
+                        type="password"
+                        id="password"
+                        placeholder="Create password"
+                        required
+                    >
+
+                </div>
+
+                <div class="input-group">
+
+                    <label>Confirm Password</label>
+
+                    <input
+                        type="password"
+                        id="confirmPassword"
+                        placeholder="Confirm password"
+                        required
+                    >
+
+                </div>
+
+                <button type="submit">
+                    Create Account
+                </button>
+
+            </form>
+
+            <div class="bottom-text">
+
+                Already have an account?
+
+                <a href="index.html">
+                    Login
+                </a>
+
+            </div>
+
+        </div>
+
+    </div>
+
+</div>
+
+<script type="module" src="js/firebase.js"></script>
+<script type="module" src="js/auth.js"></script>
+
+</body>
+</html>
